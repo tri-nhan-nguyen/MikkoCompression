@@ -55,9 +55,7 @@ function myRender(filtered) {
                 return svgGfx.getSVG(opList, viewport);
             }).then(function(svg) {
                 container.appendChild(svg);
-                if (currentPage > maxPage) return;
                 ++currentPage;
-                console.log(currentPage);
                 pdf.getPage(filtered[currentPage - 1]).then(renderPage);            
             });
         } 
