@@ -1,0 +1,31 @@
+{
+  "name": "mikkocompression",
+  "version": "1.0.0",
+  "description": "Inspired by [Nhat Nguyen](https://github.com/nhat-nguyen), [Thao Tran](https://github.com/ThaoTrann)",
+  "main": "app.js",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "expresss": "^0.0.0",
+    "node-tesseract": "^0.2.7",
+    "request": "^2.87.0",
+    "tesseract.js": "^1.0.10"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nhan-tri-nguyen/MikkoCompression.git"
+  },
+  "keywords": [
+    "Mikko"
+  ],
+  "author": "ngtrnhan1205",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nhan-tri-nguyen/MikkoCompression/issues"
+  },
+  "homepage": "https://github.com/nhan-tri-nguyen/MikkoCompression#readme"
+}
