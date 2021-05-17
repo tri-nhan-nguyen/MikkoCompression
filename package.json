@@ -7,9 +7,11 @@
     "ejs": "^2.6.1",
     "express": "^4.16.3",
     "expresss": "^0.0.0",
+    "jpeg-js": "^0.4.3",
+    "node-fetch": "^2.6.1",
     "node-tesseract": "^0.2.7",
     "request": "^2.87.0",
-    "tesseract.js": "^1.0.10"
+    "tesseract.js": "^1.0.19"
   },
   "devDependencies": {},
   "scripts": {
