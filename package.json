@@ -14,7 +14,7 @@
     "node-tesseract": "^0.2.7",
     "request": "^2.87.0",
     "set-value": "^4.0.0",
-    "tesseract.js": "^1.0.19"
+    "tesseract.js": "^2.1.4"
   },
   "devDependencies": {},
   "scripts": {

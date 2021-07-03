@@ -1,12 +1,13 @@
-// replace this with require('tesseract.js')
-var Tesseract = require('../../'),
-	image = require('path').resolve(__dirname, 'cosmic.png');
+#!/usr/bin/env node
+const path = require('path');
+const Tesseract = require('../../');
 
-Tesseract.detect(image)
-	.progress(function(info){
-		console.log(info);
-	})
-	.then(function(data){
-		console.log('done', data);
-		process.exit();
-	})
+const [,, imagePath] = process.argv;
+const image = path.resolve(__dirname, (imagePath || '../../tests/assets/images/cosmic.png'));
+
+console.log(`Recognizing ${image}`);
+
+Tesseract.detect(image, { logger: m => console.log(m) })
+  .then(({ data }) => {
+    console.log(data);
+  });
