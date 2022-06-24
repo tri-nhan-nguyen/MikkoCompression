@@ -10,7 +10,7 @@
     "expresss": "^0.0.0",
     "extend": "^3.0.2",
     "jpeg-js": "^0.4.3",
-    "node-fetch": "^2.6.1",
+    "node-fetch": "^2.6.7",
     "node-tesseract": "^0.2.7",
     "request": "^2.87.0",
     "set-value": "^4.0.0",
